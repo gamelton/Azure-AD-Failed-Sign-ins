@@ -14,7 +14,7 @@ Preparation:
 Install-Package ADAL.PS
 2. Get Tenant ID that is Directory ID from Azure AD properties at https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Properties
 3. Register application for you Azure AD at https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/RegisteredAppsPreview
-3.1. Get Application (client) ID from Application properties
-3.3. Make sure to check under app's Authentication Default client type Yes (Application is public client)
-3.4. Make sure to grant API permission of AuditLog.Read.All to the application 
+  3.1. Get Application (client) ID from Application properties
+  3.3. Make sure to check under app's Authentication Default client type Yes (Application is public client)
+  3.4. Make sure to grant API permission of AuditLog.Read.All to the application 
  
