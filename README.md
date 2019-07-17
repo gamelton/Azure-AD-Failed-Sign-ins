@@ -11,7 +11,7 @@ Prerequisites:
 
 Preparation:
 1. Run PowerShell command to install ADAL module
->Install-Package ADAL.PS
+   >Install-Package ADAL.PS
 1. Get Tenant ID that is Directory ID from Azure AD properties at https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Properties
 1. Register application for you Azure AD at https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/RegisteredAppsPreview
    1. Get Application (client) ID from Application properties
