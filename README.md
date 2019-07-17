@@ -1,7 +1,7 @@
-# AzureADFailedSignIns
+# Azure AD Failed Sign-ins
 Get Azure Active Directory failed sign-ins from Graph API
 
-Query Microsoft Graph API for incorrect login or password sign-ins. We filter for specifit Event ID of 50126 that's "Invalid username or password". You could change this inside the script. The script uses Azure AD user's credentials in clear text, so make sure it's stored properly.
+Query Microsoft Graph API for incorrect login or password sign-ins. We filter for specifit Event ID of **50126** that's `Invalid username or password`. You could change this inside the script. The script uses Azure AD user's credentials in clear text, so make sure it's stored properly.
 
 Prerequisites:
 1. Azure Active Directory premium 1 (P1) license
