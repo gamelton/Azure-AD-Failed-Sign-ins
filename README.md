@@ -17,9 +17,9 @@ Preparation:
 1. Register application for you Azure AD at https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/RegisteredAppsPreview
    1. Get Application (Client) ID from Application properties
    1. Make sure to check under app's Authentication Default client type Yes (Application is public client)
-   ![AzureAD App Public Client](/images/azuread-app-registration-01.PNG)
+   ![AzureAD App Public Client](https://github.com/gamelton/gamelton.github.io/blob/master/images/azuread-app-registration-01.PNG)
    1. Make sure to grant API permission of AuditLog.Read.All to the application
-   ![AzureAD App API Permission](/images/azuread-app-registration-02.PNG)
+   ![AzureAD App API Permission](https://github.com/gamelton/gamelton.github.io/blob/master/images/azuread-app-registration-02.PNG)
 1. Edit the script and supply your
    1. `TENANTID` and `CLIENTID`for Tenant (Authority) and Application (Client)
    1. `AZUREADUSERLOGIN` and `AZUREADUSERPASSWORD` for Azure AD User with correct role
